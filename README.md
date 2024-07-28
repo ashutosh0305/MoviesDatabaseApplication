@@ -1,4 +1,5 @@
 MoviesDatabaseApplication
+
 Description
 This application showcases a comprehensive movie database using the data provided in the movies.json file. It includes the following features:
 
@@ -27,10 +28,6 @@ Movie Details
 Tapping a movie displays detailed information, including the poster, title, plot, cast & crew, release date, genre, and rating.
 Users can select a rating source (IMDB, Rotten Tomatoes, Metacritic) to view the rating value.
 A custom UI control has been created to show the rating value.
-Screenshots
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-28 at 19 02 06](https://github.com/user-attachments/assets/e6f25e33-7f59-4702-b080-e57b2a3bd5f2)
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-28 at 19 01 39](https://github.com/user-attachments/assets/d52a282f-05cd-43f3-b895-ec9bffdfcc4d)
-
 
 
 How to Use
