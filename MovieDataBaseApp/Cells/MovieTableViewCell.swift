@@ -9,7 +9,11 @@ import UIKit
 
 class MovieTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var moviePoster: UIImageView?
+    @IBOutlet weak var moviePoster: UIImageView? {
+        didSet {
+            moviePoster?.layer.cornerRadius = 5
+        }
+    }
     @IBOutlet weak var movieTitle: UILabel! {
         didSet {
             movieTitle.font = UIFont.systemFont(ofSize: 17, weight: .regular)
