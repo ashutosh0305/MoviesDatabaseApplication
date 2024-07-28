@@ -47,10 +47,3 @@ Select a rating source to view the movie's rating.
 Getting Started
 To get started with the application, clone the repository and open it in Xcode. Make sure to have the movies.json file in the project's bundle.
 
-bash
-Copy code
-git clone https://github.com/ashutosh0305/MoviesDatabaseApplication.git
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Feel free to customize the description further to fit your specific needs and details about the application.
