@@ -1,4 +1,4 @@
-MoviesDatabaseApplication
+**MoviesDatabaseApplication**
 
 Description
 This application showcases a comprehensive movie database using the data provided in the movies.json file. It includes the following features:
