@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class MoviesTableViewController: UITableViewController {
     var items: [Movie] = []
@@ -14,6 +15,8 @@ class MoviesTableViewController: UITableViewController {
         super.viewDidLoad()
         let nib = UINib(nibName: "MovieTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "movieCell")
+        Crashes.generateTestCrash()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

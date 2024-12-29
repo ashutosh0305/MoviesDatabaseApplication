@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterCrashes
+import AppCenterAnalytics
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
            window = UIWindow(frame: UIScreen.main.bounds)
+        
+        AppCenter.start(withAppSecret: "7103c216-cc3e-46ed-b138-7e44d6208211", services: [
+            Analytics.self,
+            Crashes.self
+        ])
+        
+        if Crashes.hasCrashedInLastSession {
+            print("Crash detected in the last session.")
+        }
+
            
            let appearance = UINavigationBarAppearance()
            appearance.backgroundColor = UIColor.systemBlue // Set your desired color
