@@ -1,6 +1,6 @@
 ***MoviesDatabaseApplication***
 
-[![Build status](https://build.appcenter.ms/v0.1/apps/34364f16-06ae-4400-9883-1faf3a3c96b9/branches/dev/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/fdae8363-4a17-4243-ac07-187215c95d5e/branches/dev/badge)](https://appcenter.ms)
 
 Description
 This application showcases a comprehensive movie database using the data provided in the movies.json file. It includes the following features:
