@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AppCenterAnalytics
 struct Section {
     let title: MovieCategory
     var items: [Any]
@@ -46,6 +47,8 @@ class MovieCategoryViewController: UIViewController, UITableViewDataSource, UITa
         }
         setupUI()
     }
+    
+  
     
     private func setupUI() {
         self.title = Constants.Titles.movieDatabase
