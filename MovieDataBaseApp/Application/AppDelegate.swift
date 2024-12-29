@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
            window = UIWindow(frame: UIScreen.main.bounds)
         
-        AppCenter.start(withAppSecret: "7103c216-cc3e-46ed-b138-7e44d6208211", services: [
+        AppCenter.start(withAppSecret: "23f564db-3cbc-49cd-a45f-d5138313c1ab", services: [
             Analytics.self,
             Crashes.self
         ])
