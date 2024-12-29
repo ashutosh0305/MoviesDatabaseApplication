@@ -47,5 +47,5 @@ View Movie Details:
 Tap on a movie to see its detailed information.
 Select a rating source to view the movie's rating.
 Getting Started
-To get started with the application, clone the repository and open it in Xcode. Make sure to have the movies.json file in the project's bundle..
+To get started with the application, clone the repository and open it in Xcode. Make sure to have the movies.json file in the project's bundle.
 
