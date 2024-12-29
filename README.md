@@ -2,6 +2,7 @@
 
 dev: [![Build status](https://build.appcenter.ms/v0.1/apps/fdae8363-4a17-4243-ac07-187215c95d5e/branches/dev/badge)](https://appcenter.ms)
 test: [![Build status](https://build.appcenter.ms/v0.1/apps/fdae8363-4a17-4243-ac07-187215c95d5e/branches/test/badge)](https://appcenter.ms)
+master: [![Build status](https://build.appcenter.ms/v0.1/apps/fdae8363-4a17-4243-ac07-187215c95d5e/branches/main/badge)](https://appcenter.ms)
 
 Description
 This application showcases a comprehensive movie database using the data provided in the movies.json file. It includes the following features:
@@ -30,7 +31,7 @@ Movie Details
 
 Tapping a movie displays detailed information, including the poster, title, plot, cast & crew, release date, genre, and rating.
 Users can select a rating source (IMDB, Rotten Tomatoes, Metacritic) to view the rating value.
-A custom UI control has been created to show the rating value.
+A custom UI control has been created to show the rating value..
 
 
 How to Use
@@ -48,5 +49,5 @@ View Movie Details:
 Tap on a movie to see its detailed information.
 Select a rating source to view the movie's rating.
 Getting Started
-To get started with the application, clone the repository and open it in Xcode. Make sure to have the movies.json file in the project's bundle..
+To get started with the application, clone the repository and open it in Xcode. Make sure to have the movies.json file in the project's bundle.
 
