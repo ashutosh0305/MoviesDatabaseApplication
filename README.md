@@ -29,7 +29,7 @@ Movie Details
 
 Tapping a movie displays detailed information, including the poster, title, plot, cast & crew, release date, genre, and rating.
 Users can select a rating source (IMDB, Rotten Tomatoes, Metacritic) to view the rating value.
-A custom UI control has been created to show the rating value.
+A custom UI control has been created to show the rating value..
 
 
 How to Use
